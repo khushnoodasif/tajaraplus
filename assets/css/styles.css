@@ -665,6 +665,36 @@ footer .inner-content p a {
 	color: #fff;
 }
 
+.products ul.pages-2 {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.products ul.pages-2 li {
+	display: inline-block;
+	margin: 0px 2px;
+}
+
+.products ul.pages-2 li a {
+	width: 100px;
+	height: 44px;
+	display: inline-block;
+	line-height: 42px;
+	border: 1px solid #eee;
+	font-size: 15px;
+	font-weight: 700;
+	color: #121212;
+	transition: all .3s;
+}
+
+.products ul.pages-2 li a:hover,
+.products ul.pages-2 li.active a {
+	background-color: #F76F72;
+	border-color: #F76F72;
+	color: #fff;
+}
+
+
 
 
 /* Team Members */
@@ -1000,6 +1030,11 @@ footer .inner-content p a {
 		margin-top: 30px;
 		margin-left: 0px;
 	}
+}
+
+nav a .logo {
+  display: block;
+  width: 35%;
 }
 
 @media (max-width: 992px) {
