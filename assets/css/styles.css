@@ -15915,6 +15915,12 @@ body.welcome-section-primary-light .clients-section {
     background: inherit;
 }
 
+@media screen and (max-width: 916px) {
+    .subscribe-section {
+        margin: 0;
+    }
+}
+
 .latest-news,
 .slider {
     background-color: white;
@@ -16677,7 +16683,7 @@ a.tag:hover, .widget-tags .tagcloud a:hover {
 }
 
 .subscribe-form.style-1 .button, .subscribe-form.style-2 .button {
-    padding: 0 34px;
+    padding: 0 20px;
 }
 
 .subscribe-form.style-2 input {
