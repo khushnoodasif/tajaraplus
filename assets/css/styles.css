@@ -15099,7 +15099,6 @@ body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) head
 }
 
 .ken-burns-background {
-    background-image:url(../images/background/main.png);
     position: absolute;
     top: 0;
     right: 0;
@@ -15111,13 +15110,13 @@ body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) head
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    -webkit-animation: kenburns 40s infinite;
-    animation: kenburns 40s infinite;
+    -webkit-animation: kenburns 1s infinite;
+    animation: kenburns 1s infinite;
 }
 
 @media (max-width: 600px) {
   .ken-burns-background {
-    background-size: contain;
+    background-size: 120% auto !important;
   }
 }
 
